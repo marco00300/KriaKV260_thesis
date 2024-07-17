@@ -2,6 +2,7 @@
 I'm trying to quantize and compile a tf model for the Kria KV260.
 
 Workflow
+
 1-I converted the model in a HDF5 file
 
 2-I used my_quantize_fn.py to quantize my_model.h5 but I encountered some issues: 
