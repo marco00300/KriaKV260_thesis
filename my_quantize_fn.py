@@ -63,7 +63,6 @@ def quant_model(float_model,quant_model,batchsize, x_pickle_file, y_pickle_file,
     height = float_model.input_shape[1]
     width = float_model.input_shape[2]
 
-    # make TFRecord dataset and image processing pipeline
     quant_dataset = load_pickle_dataset(x_pickle_file, y_pickle_file, batchsize)
 
     # run quantization
