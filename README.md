@@ -1,5 +1,5 @@
 # KriaKV260_thesis
-I'm trying to quantize, compile and run a tf model for the Kria KV260 with Vitis AI.
+Workflow to quantize, compile and run a tf model for the Kria KV260 with Vitis AI.
 
 convertertoH5.py : to convert the model to .h5 format;
 
